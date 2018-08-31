@@ -15,4 +15,6 @@ struct User {
   let screenName:String
   
   let name: String
+  
+  let profileImageURL: String
 }

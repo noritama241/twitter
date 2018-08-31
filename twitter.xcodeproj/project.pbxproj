@@ -15,6 +15,10 @@
 		85351B5F213539A50010BDA2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85351B5E213539A50010BDA2 /* User.swift */; };
 		85351B61213558570010BDA2 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85351B60213558570010BDA2 /* TimelineViewController.swift */; };
 		85351B63213669C80010BDA2 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85351B62213669C80010BDA2 /* Tweet.swift */; };
+		85351B652136822D0010BDA2 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85351B642136822D0010BDA2 /* TweetTableViewCell.swift */; };
+		85351B67213906FC0010BDA2 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85351B66213906FC0010BDA2 /* Account.swift */; };
+		85351B69213907A90010BDA2 /* LoginCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85351B68213907A90010BDA2 /* LoginCommunicator.swift */; };
+		85351B6B21390E880010BDA2 /* TwitterCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85351B6A21390E880010BDA2 /* TwitterCommunicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		85351B5E213539A50010BDA2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		85351B60213558570010BDA2 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		85351B62213669C80010BDA2 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		85351B642136822D0010BDA2 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		85351B66213906FC0010BDA2 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		85351B68213907A90010BDA2 /* LoginCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCommunicator.swift; sourceTree = "<group>"; };
+		85351B6A21390E880010BDA2 /* TwitterCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCommunicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +68,15 @@
 		85351B4B213539000010BDA2 /* twitter */ = {
 			isa = PBXGroup;
 			children = (
+				85351B66213906FC0010BDA2 /* Account.swift */,
+				85351B68213907A90010BDA2 /* LoginCommunicator.swift */,
 				85351B4C213539000010BDA2 /* AppDelegate.swift */,
 				85351B4E213539000010BDA2 /* ViewController.swift */,
+				85351B642136822D0010BDA2 /* TweetTableViewCell.swift */,
 				85351B5E213539A50010BDA2 /* User.swift */,
 				85351B62213669C80010BDA2 /* Tweet.swift */,
 				85351B60213558570010BDA2 /* TimelineViewController.swift */,
+				85351B6A21390E880010BDA2 /* TwitterCommunicator.swift */,
 				85351B50213539000010BDA2 /* Main.storyboard */,
 				85351B53213539030010BDA2 /* Assets.xcassets */,
 				85351B55213539030010BDA2 /* LaunchScreen.storyboard */,
@@ -147,8 +159,12 @@
 				85351B4F213539000010BDA2 /* ViewController.swift in Sources */,
 				85351B63213669C80010BDA2 /* Tweet.swift in Sources */,
 				85351B61213558570010BDA2 /* TimelineViewController.swift in Sources */,
+				85351B6B21390E880010BDA2 /* TwitterCommunicator.swift in Sources */,
 				85351B4D213539000010BDA2 /* AppDelegate.swift in Sources */,
+				85351B69213907A90010BDA2 /* LoginCommunicator.swift in Sources */,
 				85351B5F213539A50010BDA2 /* User.swift in Sources */,
+				85351B652136822D0010BDA2 /* TweetTableViewCell.swift in Sources */,
+				85351B67213906FC0010BDA2 /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
