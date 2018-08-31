@@ -17,8 +17,12 @@ class TimelineViewController: UIViewController {
         super.viewDidLoad()
 
       // ダミーデータの生成
-      let user = User(id: "1", screenName: "noritama241", name: "たちつてと", profileImageURL: "https://pbs.twimg.com/profile_images/585445502117752832/tPMOrjCr_400x400.jpg")
-      let tweet = Tweet(id: "01", text: "超元気", user: user)
+      let user = User(json: "1"
+        // , screenName: "noritama241"
+        // , name: "たちつてと"
+        // , profileImageURL: "https://pbs.twimg.com/profile_images/585445502117752832/tPMOrjCr_400x400.jpg"
+      )
+      let tweet = Tweet(id: "01", text: "超元気", user: user!)
       
       let tweets = [tweet]
       self.tweets = tweets
@@ -46,6 +50,17 @@ class TimelineViewController: UIViewController {
             }
             
             print(data)
+            let timelineParser = TimelineParser()
+            let tweets = timelineParser.parse(data: data!)
+            
+            print(tweets)
+            
+            self?.tweets = tweets
+            
+            DispatchQueue.main.async {
+              self?.tableView.reloadData()
+            }
+
           }
         }
       }

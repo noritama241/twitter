@@ -19,6 +19,7 @@
 		85351B67213906FC0010BDA2 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85351B66213906FC0010BDA2 /* Account.swift */; };
 		85351B69213907A90010BDA2 /* LoginCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85351B68213907A90010BDA2 /* LoginCommunicator.swift */; };
 		85351B6B21390E880010BDA2 /* TwitterCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85351B6A21390E880010BDA2 /* TwitterCommunicator.swift */; };
+		85351B6D21391C100010BDA2 /* TimelineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85351B6C21391C100010BDA2 /* TimelineParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		85351B66213906FC0010BDA2 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		85351B68213907A90010BDA2 /* LoginCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCommunicator.swift; sourceTree = "<group>"; };
 		85351B6A21390E880010BDA2 /* TwitterCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCommunicator.swift; sourceTree = "<group>"; };
+		85351B6C21391C100010BDA2 /* TimelineParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				85351B642136822D0010BDA2 /* TweetTableViewCell.swift */,
 				85351B5E213539A50010BDA2 /* User.swift */,
 				85351B62213669C80010BDA2 /* Tweet.swift */,
+				85351B6C21391C100010BDA2 /* TimelineParser.swift */,
 				85351B60213558570010BDA2 /* TimelineViewController.swift */,
 				85351B6A21390E880010BDA2 /* TwitterCommunicator.swift */,
 				85351B50213539000010BDA2 /* Main.storyboard */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85351B4F213539000010BDA2 /* ViewController.swift in Sources */,
+				85351B6D21391C100010BDA2 /* TimelineParser.swift in Sources */,
 				85351B63213669C80010BDA2 /* Tweet.swift in Sources */,
 				85351B61213558570010BDA2 /* TimelineViewController.swift in Sources */,
 				85351B6B21390E880010BDA2 /* TwitterCommunicator.swift in Sources */,
